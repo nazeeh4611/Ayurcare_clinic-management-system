@@ -1,0 +1,19 @@
+.letter {
+    color: white;
+    display: inline-block; /* Required for the animation */
+    transition: color 0.5s ease-in-out; /* Transition for color change */
+}
+
+.fade-in {
+    color: yellow; /* Change color to yellow */
+    animation: fade-in 0.5s forwards; /* Trigger animation */
+}
+
+@keyframes fade-in {
+    from {
+        color: white; /* Starting color */
+    }
+    to {
+        color: yellow; /* Ending color */
+    }
+}

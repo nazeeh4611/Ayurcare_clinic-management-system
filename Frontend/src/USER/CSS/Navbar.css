@@ -1,0 +1,73 @@
+/* // import React, { useState } from 'react';
+
+
+// const Login = () => {
+//   const [phoneNumber, setPhoneNumber] = useState('');
+//   const [isValid, setIsValid] = useState(false);
+//   const [error, setError] = useState('');
+
+//   const validatePhoneNumber = (number) => {
+//     const phoneRegex = /^\+?[1-9]\d{1,14}$/;
+//     return phoneRegex.test(number);
+//   };
+
+//   const handlePhoneChange = (e) => {
+//     const number = e.target.value;
+//     setPhoneNumber(number);
+//     const valid = validatePhoneNumber(number);
+//     setIsValid(valid);
+//     setError(valid ? '' : 'Please enter a valid phone number');
+//   };
+
+//   const handleSubmit = (e) => {
+//     e.preventDefault();
+//     if (isValid) {
+//       // Here you would typically send the phone number to your backend for authentication
+//       console.log('Submitting phone number:', phoneNumber);
+//     } else {
+//       setError('Please enter a valid phone number before submitting');
+//     }
+//   };
+
+//   return (
+//     <div className="flex items-center justify-center min-h-screen bg-gray-100">
+//       <Card className="w-full max-w-md">
+//         <CardHeader>
+//           <CardTitle className="text-2xl font-bold">Login</CardTitle>
+//           <CardDescription>Enter your phone number to log in</CardDescription>
+//         </CardHeader>
+//         <form onSubmit={handleSubmit}>
+//           <CardContent>
+//             <div className="space-y-4">
+//               <div className="flex items-center space-x-2">
+//                 <Phone className="text-gray-500" />
+//                 <Input
+//                   type="tel"
+//                   placeholder="Phone Number"
+//                   value={phoneNumber}
+//                   onChange={handlePhoneChange}
+//                   className={`flex-grow ${!isValid && phoneNumber ? 'border-red-500' : ''}`}
+//                 />
+//               </div>
+//               {error && (
+//                 <Alert variant="destructive">
+//                   <AlertDescription>{error}</AlertDescription>
+//                 </Alert>
+//               )}
+//             </div>
+//           </CardContent>
+//           <CardFooter>
+//             <Button type="submit" className="w-full" disabled={!isValid}>
+//               Log In
+//             </Button>
+//           </CardFooter>
+//         </form>
+//       </Card>
+//     </div>
+//   );
+// };
+
+// export default Login;
+
+
+ */
